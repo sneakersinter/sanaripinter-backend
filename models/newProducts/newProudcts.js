@@ -6,14 +6,16 @@ const getImage = (id) => {
 
 const newProducts = [
   {
-    title: "Подарки для неё и для него",
+    title: "Новые модные кроссовки",
     description: "Покупай прямо сейчас",
     image: getImage(1),
+    linkId: 1,
   },
   {
-    title: "Подарки для неё и для него",
+    title: "Новые модные кроссовки",
     description: "Покупай прямо сейчас",
-    image: getImage(1),
+    image: getImage(2),
+    linkId: 2,
   },
 ];
 
